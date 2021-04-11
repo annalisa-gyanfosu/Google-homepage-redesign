@@ -1,0 +1,96 @@
+body, p {
+  margin: 0em;
+  padding: 0em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  padding: 2em;
+}
+
+nav a {
+  display: inline;
+}
+
+a {
+  color: rgb(109, 107, 107);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.lang a {
+  color: blue;
+}
+
+nav img {
+  height: 20px;
+}
+
+nav button {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+main {
+  width: 50%;
+  margin: 5.5em auto;
+  text-align: center;
+}
+
+main img {
+  height: 100px;
+  padding: 1em;
+}
+
+input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid rgb(199, 198, 198);
+}
+
+.buttons_container {
+  margin-top: 1em;
+}
+
+.buttons_container button{
+  padding: 1em;
+  border: none;
+}
+
+footer {
+  background-color: rgb(241, 240, 240);
+}
+
+.footer_top {
+  padding: 1em;
+  color: rgb(109, 107, 107);
+}
+
+.footer_bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+
+.left a {
+  margin-right: 1em;
+}
+
+.right a {
+  margin-right: 1em;
+}
